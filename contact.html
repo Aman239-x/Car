@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LAMBO CONTACT</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC&family=Cinzel:wght@700&family=The+Nautigal:wght@700&family=Ubuntu&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-image: url('4k.jpg');
+           
+            background-attachment: fixed;
+            background-size: cover;
+            transition-property: all;
+            transition-duration: 2s;
+            color: white;
+            margin: 0px;
+            font-family: 'Ubuntu', sans-serif;
+            padding: 0px;
+            text-shadow: 1px 1px 1px rgb(223, 220, 220) ;
+        }
+
+        .left {
+            display: inline-block;
+            /* border: 2px solid red; */
+            float: left;
+            left: 35px;
+            top: 2px;
+            position: relative;
+        }
+
+
+        .left img {
+            width: 65px;
+        }
+
+        .mid {
+            /* border: 2px solid purple; */
+            display: block;
+            width: 31%;
+            margin: 0px auto;
+            top: 8px;
+            transition-property: all;
+        }
+
+        .ex {
+            transform: scale(1.1);
+        }
+
+        .navbar {
+            display: inline-block;
+            transition-property: all;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 23px;
+
+        }
+
+        .navbar li a {
+            color: black;
+            text-decoration: none;
+            padding: 28px 20px;
+            text-align: center;
+        }
+
+      
+
+        .right {
+            /* border: 2px solid green; */
+            float: right;
+            position: absolute;
+            right: 34px;
+            top: 4px;
+            width: 100px;
+            display: inline;
+            text-align: center;
+            font-size: 18px;
+
+        }
+
+        .aa {
+            width: 34px;
+            height: 5px;
+            background-color: black;
+            margin: 7px 30px;
+
+        }
+
+        hr {
+            height: 31px;
+            width: 33%;
+            margin: -27px 243px;
+            background: linear-gradient(to right, #fff024 0%, #524925 100%);
+            border: none;
+            border-radius: 50px;
+            transition: .5s ease-in-out;
+        }
+
+        #two:hover~hr {
+            margin-left: 29%;
+            width: 26%;
+        }
+
+        #three:hover~hr {
+            margin: -27px 0px;
+            width: 26%;
+        }
+
+        .cflex {
+            display: flex;
+            flex-direction: column;
+            margin: 38px 910px 0px -40px;
+            /* border: 2px solid darkblue; */
+            margin-top: 50px;
+            padding: 0px 60px ;
+            align-items: flex-start;
+        }
+
+        .login {
+            /* border: 1px solid cyan; */
+            /* color:white; */
+           
+            margin: 12px 40px;
+            padding: 3px 100px;
+
+        }
+
+        .something {
+            margin-top: 120px;
+            color: white;
+            text-align: center;
+            font-size: 40px;
+            font-family:cursive;
+            text-shadow:2px 2px 4px black;
+        }
+        .k
+        {
+            background-color: transparent;
+            background: none;
+            color:white;
+            outline: none;
+            font-family: inherit;
+            font-size: inherit;
+            border: 1px solid white;
+            border-radius: 6px;
+        }
+
+        #G{
+            padding: 0px 50px 0px 0px;
+        }
+        #S{
+            padding: 0px 80px;
+        }
+        /* #S :hover{
+            transform: scale(1.1);
+        } */
+         #C{
+            padding: 0px 40px 0px 0px;
+        }
+        .login:hover{
+          color:  rgb(240, 186, 38);
+          transform: scale(1.05);
+          transition: .5s ease-in-out;
+          
+        }
+        .submit input:hover{
+            transform: scale(1.1);
+            transition: .5s ease-in-out;
+            color: rgb(240, 186, 38);
+            border: 1px solid rgb(240, 186, 38);
+            
+        }
+        /* .foot{
+            text-align: center;
+            background-color: black;
+            /* margin-bottom: 0px 0px 0px 0px; */
+            /* padding : 0px 0px;
+
+             }
+             .f{
+                 margin: 36px 0px 0px 0px;
+                 padding: 0px 0px 0px 0px;
+             } */ 
+
+     
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="left">
+            <a href="car.html">
+                <img src="https://www.lamborghini.com/sites/it-en/files/themes/custom/lambo_facelift_2019/images/logo.png"
+                    alt="">
+                </a>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li class="ex" type="none" id="three"><a href="index.html" target="blank">HOME</a></li>
+                <li class="ex" id="two" type="none"><a href="about.html" target="blank">ABOUT</a></li>
+                <li class="ex" type="none"><a href="#">CONTACT US</a></li>
+                <hr />
+            </ul>
+        </div>
+
+        <div class="right">
+            <div class="aa"></div>
+            <div class="aa"></div>
+            <div class="aa"></div>
+        </div>
+    </header>
+    <div class="something">
+        <p>
+           WANNA FIX AN APPOINTMANT !</p>
+         <p>
+            OR REQUEST A CALL BACK !
+         </p>  
+        
+
+    </div>
+    <div class="cflex">
+        <form action=" noaction.php">
+        <div class="login">
+            <label class="sty">NAME</label>
+            <input  class= "k" type="text" name="" placeholder="">
+        </div>
+        <div class="login">
+
+
+            <label class="sty">EMAIL</label>
+            <input class = "k"type="email" name="" placeholder="">
+        </div>
+        <div class="login">
+
+            <label class="sty">CONTACT</label>
+            <input class = "k"type="number" name="" placeholder=""> 
+        </div>
+        <div class="login" >
+            
+            <label id="G" class = "k" for="Gender">GENDER</label>
+            <select class = "k" name="myGender" id="Gender">
+                <option class = "k" value="male">MALE</option>
+                <option class = "k" value="female">FEMALE</option>
+                <option class = "k" value="Other">OTHER</option>
+            </select>
+        </div>
+        <div class="login">
+            <label id="C" class = "k" for="Country">COUNTRY</label>
+            <select class = "k" name="myCountry" id="Country">
+                <option class = "k" value="male">INDIA</option>
+                <option class = "k" value="female">ITALY</option>
+                <option class = "k" value="Other">FRANCE</option>
+            </select>
+        </div>
+        <div class="login">
+            <div class="submit">
+                <input id="S" class = "k"type="submit" value="SUBMIT">
+
+            </div>
+        </div>
+        
+    </form> 
+    </div>
+    <!-- <footer class="f">
+        <div class="foot">
+            Copyright @ Aman
+        </div>
+    </footer> -->
+    
+
+</body>
+
+</html>
